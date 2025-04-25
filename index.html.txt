@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shrouk Mohamed - Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+      overflow-x: hidden;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #6b2e91;
+      font-size: 3em;
+      margin-top: 20px;
+    }
+
+    p {
+      color: #5a537e;
+      font-size: 1.2em;
+      margin: 5px 0;
+    }
+
+    .skills-list, .projects-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 20px;
+    }
+
+    .skill, .project {
+      background-color: white;
+      padding: 10px 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, background-color 0.3s;
+    }
+
+    .skill:hover, .project:hover {
+      transform: scale(1.1);
+      background-color: #f0f0f0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #6b2e91;
+      font-weight: bold;
+    }
+
+    .animated-bg {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      z-index: -1;
+      background: radial-gradient(circle, rgba(238,174,202,0.3), rgba(148,187,233,0.3));
+      animation: moveBg 10s linear infinite;
+    }
+
+    @keyframes moveBg {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="animated-bg"></div>
+  
+  <h1>Shrouk Mohamed</h1>
+  <p>Back-End Developer | Software Engineer | Freelance Projects</p>
+  <p>Based in Moscow & Belgorod | Languages: Arabic, English, Russian</p>
+
+  <h2>Technical Skills</h2>
+  <div class="skills-list">
+    <div class="skill">C</div>
+    <div class="skill">C++</div>
+    <div class="skill">Python</div>
+    <div class="skill">FastAPI</div>
+    <div class="skill">Flask</div>
+    <div class="skill">SQL</div>
+    <div class="skill">Git</div>
+    <div class="skill">OpenGL</div>
+    <div class="skill">OOP</div>
+    <div class="skill">Java</div>
+    <div class="skill">Kotlin</div>
+    <div class="skill">Data Structures</div>
+    <div class="skill">Algorithms</div>
+    <div class="skill">Big Data Analytics</div>
+  </div>
+
+  <h2>My Projects</h2>
+  <div class="projects-list">
+    <div class="project"><a href="https://github.com/shroukmohamed5/chess.py" target="_blank">Chess.py</a></div>
+    <div class="project"><a href="https://github.com/shroukmohamed5/bot-telegram" target="_blank">Bot Telegram</a></div>
+    <div class="project"><a href="https://github.com/shroukmohamed5/school.py" target="_blank">School.py</a></div>
+    <div class="project"><a href="https://github.com/shroukmohamed5/c-open-gel-CHAIR" target="_blank">C OpenGL Chair</a></div>
+    <div class="project"><a href="https://github.com/shroukmohamed5/Dentistry-Clinic-Management" target="_blank">Dentistry Clinic</a></div>
+    <div class="project"><a href="https://github.com/shroukmohamed5/Parking-Payment-Site" target="_blank">Parking Payment Site</a></div>
+    <div class="project"><a href="https://github.com/shroukmohamed5/Assembly-Language" target="_blank">Assembly Language</a></div>
+    <div class="project"><a href="https://github.com/shroukmohamed5/project-ping-by-python" target="_blank">Ping Project (Python)</a></div>
+  </div>
+
+  <h2>Contact Me</h2>
+  <p>Email: <a href="mailto:gebrielsruk@gmail.com">gebrielsruk@gmail.com</a></p>
+  <p>Phone: +7 996 452 8626</p>
+</body>
+</html>
